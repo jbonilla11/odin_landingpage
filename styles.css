@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.TopLinks {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
