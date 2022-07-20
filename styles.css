@@ -3,17 +3,57 @@ body {
     flex-direction: column;
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.ButtonToo {
+    color: white;
+    padding: 8px;
+    border-color: white;
+    border-width: 2px;
+    width: 200px;
+    height: 35px;
+}
 
 .Top {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.AwesomeSite {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    flex-wrap: wrap;
+}
+
+.AwesomeSiteToo, .TopLinks {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .TopLinks {
     display: flex;
     list-style-type: none;
     gap: 8px;
+}
+
+.Square {
+    height: 150px;
+    width: 250px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .MidUp {
@@ -30,6 +70,16 @@ body {
     gap: 16px;
 }
 
+.SmallSquare {
+    height:100px;
+    width: 100px;
+    background-color: #f5f2f2;
+    border-width: 3px;
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 8px;
+}
+
 .GalleryItem {
     display: flex;
     flex-direction: column;
@@ -37,8 +87,43 @@ body {
     flex-wrap: wrap;
 }
 
+.MidDown {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.Bottom {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.BottomText {
+    display: flex;
+    flex-direction: column;
+}
+
+.CalltoAction {
+    font-size: 22px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.Banner {
+    background-color: #3882F6;
+    width: 400px;
+    border-radius: 6px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .Footer {
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
