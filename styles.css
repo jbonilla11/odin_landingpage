@@ -34,6 +34,8 @@ body {
     color: #f9faf8;
     padding: 16px;
     gap: 32px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .TopTop {
@@ -91,6 +93,8 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .GalleryFour {
@@ -124,6 +128,8 @@ body {
     flex-direction: column;
     padding:40px;
     gap: 4px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .Quote {
